@@ -12,6 +12,8 @@ nav {
 nav .container .nav-section a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .container {
@@ -23,4 +25,8 @@ nav .container .nav-section a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.w3-large {
+    color: white;
 }
