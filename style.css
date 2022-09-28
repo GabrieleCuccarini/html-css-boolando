@@ -145,4 +145,11 @@ footer .footer-container .container{
 
 .padded {
     padding: 30px 0;
+    vertical-align: middle;
+}
+
+.container-imgs img {
+    width: 18px;
+    padding-top: 5px;
+    padding-left: 2px;
 }
