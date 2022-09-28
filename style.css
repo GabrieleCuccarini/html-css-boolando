@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -9,8 +10,27 @@ hr {
     margin-bottom: 100px;
 }
 
-.card img {
+.card .img-container .mainimg {
     width: 100%;
+    opacity: 1;
+    z-index: 2;
+}
+
+.hoverimg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box-extra,
+.box-heart {
+    z-index: 2;
+}
+
+.hoverimg:hover{
+    opacity: 1;
 }
 
 .nav-container {
@@ -18,7 +38,7 @@ hr {
     height: 4rem;
     background-color: rgb(255, 105, 0);
     position: fixed;
-    z-index: 2;
+    z-index: 5;
 }
 
 .container.flex-spacing {
@@ -26,7 +46,7 @@ hr {
     left: calc(50% - 460px);
     top: 1rem;
     margin-bottom: 100px;
-    z-index: 2;
+    z-index: 5;
 }
 
 nav .container .nav-section a {
