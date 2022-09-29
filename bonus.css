@@ -1,3 +1,4 @@
+/*TAGS*/
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +10,24 @@ hr {
     margin-bottom: 100px;
 }
 
+nav .container .nav-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-left span {
+    padding-left: 10px;
+}
+
+.container-imgs img {
+    width: 18px;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+/*CLASSES*/
 .card .img-container .mainimg {
     width: 100%;
     opacity: 1;
@@ -52,13 +71,6 @@ hr {
     z-index: 5;
 }
 
-nav .container .nav-section a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .container {
     width: 920px;
     margin: 0 auto;
@@ -84,6 +96,15 @@ nav .container .nav-section a {
     position: relative;
 }
 
+.card-container .card .box-heart{
+    position: absolute;
+    background: white;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 10px;
+}
+
 .card-container .card .box-extra{
     position: absolute;
     width: 100px;
@@ -95,6 +116,7 @@ nav .container .nav-section a {
     column-gap: 10px;
 }
 
+
 .discount {
     background-color: red;
     padding: 2px;
@@ -105,15 +127,6 @@ nav .container .nav-section a {
     background-color:green;
     padding: 2px;
     color: white;
-}
-
-.card-container .card .box-heart{
-    position: absolute;
-    background: white;
-    width: 50px;
-    height: 50px;
-    right: 0;
-    top: 10px;
 }
 
 .heart {
@@ -158,21 +171,12 @@ footer .footer-container .container{
     align-items: center;
 }
 
-.container-left span {
-    padding-left: 10px;
-}
-
-.container-left #no-pad {
-    padding-left: 0;
-}
-
 .padded {
     padding: 30px 0;
     vertical-align: middle;
 }
 
-.container-imgs img {
-    width: 18px;
-    padding-top: 5px;
-    padding-left: 2px;
+/*ID*/
+.container-left #no-pad {
+    padding-left: 0;
 }
